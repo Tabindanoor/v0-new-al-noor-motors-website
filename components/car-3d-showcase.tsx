@@ -75,10 +75,10 @@ export function Car3DShowcase() {
         >
           {/* 3D Viewer */}
           <div className="lg:col-span-2">
-            <Car3DViewer />
+            <Car3DViewer carName={showcaseCars[selectedCar].name} />
             <div className="mt-6 text-center">
               <p className="text-muted-foreground text-sm">
-                Use mouse to rotate • Scroll to zoom • Drag to pan
+                Hover over the car to control rotation
               </p>
             </div>
           </div>
