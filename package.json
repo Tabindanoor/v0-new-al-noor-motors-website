@@ -11,6 +11,9 @@
   "dependencies": {
     "@hookform/resolvers": "^3.9.1",
     "@vercel/analytics": "1.6.1",
+    "@react-three/fiber": "^8.15.12",
+    "@react-three/drei": "^9.100.0",
+    "three": "^r128",
     "@radix-ui/react-accordion": "1.2.12",
     "@radix-ui/react-alert-dialog": "1.1.15",
     "@radix-ui/react-aspect-ratio": "1.1.8",
